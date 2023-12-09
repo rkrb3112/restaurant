@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon.ico"
+      type="Images/x-icon"
+    />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="Cart-style.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img
+              src="./assets/Delicious dishes-logos_black.png"
+              alt="delicious dishes"
+            />
+          </a>
+          <button type="button" class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <div class="nav-link contact-link">
+            <a href="cart.html" class="cart"
+              ><i class="fa fa-shopping-cart"></i
+            ></a>
+            <a href="contact.html" class="btn">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!--Main-->
+    <div class="foodCart">
+      <div class="box">
+        <img src="./Images/momos.png" alt="" />
+        <i class="fa fa-trash"></i>
+        <i class="fa fa-plus" style="font-size: 12px"></i>
+        <div class="content">
+          <h3>Momos</h3>
+          <span class="price">Rs.50</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Images/chowmein.png" alt="" />
+        <i class="fa fa-trash"></i>
+        <i class="fa fa-plus" style="font-size: 12px"></i>
+        <div class="content">
+          <h3>Chowmeen</h3>
+          <span class="price">Rs.35</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <img src="./Images/samosa.png" alt="" />
+        <i class="fa fa-trash"></i>
+        <i class="fa fa-plus" style="font-size: 12px"></i>
+        <div class="content">
+          <h3>Samosa</h3>
+          <span class="price">Rs.73</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+    </div>
+    <a href="/Foodsignin.html" class="LogoutBtn">LogOut</a>
+    <!--Main end-->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date">2021</span> Built by <span>Abhishek Gupta</span>
+      </p>
+    </footer>
+  </body>
+</html>
